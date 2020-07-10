@@ -1,0 +1,47 @@
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<title>StopWatch - Assignment 8</title>
+
+<link rel="icon" href=" https://img.icons8.com/officel/16/000000/stopwatch.png" type="image/icon">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="container main">
+<p class="para">Assignment No: 8</p>
+<h1 class="watchHeading">Stop Watch</h1>
+
+<div class="watch">
+<h1><span id="min">0</span>:<span id="sec">0</span>:<span id="mSec">0</span></h1>
+</div>
+
+
+<div>
+<button type="button" class="btn btn-secondary" onclick="start()" id="start_btn"><h4>Start</h4></button>
+<button type="button" class="btn btn-secondary" onclick="pause()"><h4>Pause</h4></button>
+<button type="button" class="btn btn-secondary" onclick="resetbtn()"><h4>Reset</h4></button>
+</div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+
+</html>

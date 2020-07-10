@@ -1,0 +1,43 @@
+body{
+	background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DBDBDB, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DBDBDB, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.para{
+	margin-top: 80px;
+	font-size: 25px;
+}
+.watchHeading{
+	text-transform: uppercase;
+    text-shadow: -1px -1px 8px rgba(0, 0, 0, 0.397), 1px 1px 5px rgba(0, 0, 0, 0.5);
+	color: #b3b2b2;
+    font-weight: 900;
+    font-size: 50px;
+}
+.main{
+	text-align: -webkit-center;
+	
+}
+.watch h1{
+	display: inline-block;
+	margin: 10px 200px 0px 0px;
+	width: 20px;
+	color: white;
+	font-size: 45px;
+}
+.watch{
+	border: 3px solid #E6DADA;
+    padding: 30px;
+    border-radius: 100px;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+.btn{
+	background-color: #b3b2b2 !important;
+	width: 100px;
+	height: 45px;
+}
